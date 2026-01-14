@@ -19,13 +19,13 @@ CREATE DATABASE cart_management;
 4. Configure Environment Variables
 
 Create a .env file in the root directory:
-envPORT=3000
-DB_USER=postgres
-DB_HOST=localhost
-DB_NAME=cart_management
-DB_PASSWORD=your_postgres_password
-DB_PORT=5432
-JWT_SECRET=your-super-secret-jwt-key-change-in-production
+# envPORT=3000
+# DB_USER=postgres
+# DB_HOST=localhost
+# DB_NAME=cart_management
+# DB_PASSWORD=your_postgres_password
+# DB_PORT=5432
+# JWT_SECRET=your-super-secret-jwt-key-change-in-production
 
 6. Start the Server
 
