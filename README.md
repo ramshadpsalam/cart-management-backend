@@ -17,7 +17,7 @@ psql -U postgres
 CREATE DATABASE cart_management;
 
 4. Configure Environment Variables
-5. 
+
 Create a .env file in the root directory:
 envPORT=3000
 DB_USER=postgres
@@ -26,8 +26,10 @@ DB_NAME=cart_management
 DB_PASSWORD=your_postgres_password
 DB_PORT=5432
 JWT_SECRET=your-super-secret-jwt-key-change-in-production
+
 6. Start the Server
-bash# Development mode with nodemon
+
+# Development mode with nodemon
 npm run dev
 
 # Production mode
