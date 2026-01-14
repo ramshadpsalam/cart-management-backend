@@ -10,10 +10,12 @@ cd backend
 npm install
 
 3. Setup PostgreSQL Database
-bash# Login to PostgreSQL
-psql -U postgres
+
+# Login to PostgreSQL
+ psql -U postgres
 
 #Create database
+
 CREATE DATABASE cart_management;
 
 4. Configure Environment Variables
