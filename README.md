@@ -4,15 +4,18 @@ Product &amp; Cart Management System with RBAC
 #A robust Node.js/Express backend with PostgreSQL database, JWT authentication, and role-based access control for managing products and shopping carts.
 
 1. Clone the repository
-bashgit clone <repository-url>
-cd backend
-2. Install dependencies
-npm install
 
-3. Setup PostgreSQL Database
+  git clone <repository-url>
+  
+  cd backend
+  
+3. Install dependencies
+   npm install
 
-# Login to PostgreSQL
- psql -U postgres
+4. Setup PostgreSQL Database
+
+    Login to PostgreSQL
+   psql -U postgres
 
 #Create database
 
